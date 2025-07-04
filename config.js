@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IK~1Pc0WSJB#8_e_zhkk44GxQWHTERq9MDc5rAxQrYDHYVbcknrcF5w",
+SESSION_ID: process.env.SESSION_ID || "IK~2QczlLAL#xsx-2kf6BvvvzpCP2KBOSKx0I-xyE3adKjxfx7hqKqg",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
@@ -27,11 +27,11 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/3y5w8z.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/ke8nul.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "SENU-MD",
+BOT_NAME: process.env.BOT_NAME || "SENU-X-BOT",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "SENU-MD",
 // type sticker pack name 
@@ -47,9 +47,9 @@ OWNER_NAME: process.env.OWNER_NAME || "Jᴇꜱᴛᴇʀ TᴇᴄʜX",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴇꜱᴛᴇʀ TᴇᴄʜX*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/3y5w8z.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ke8nul.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *SENU-MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> I'm alive now *SENU-MD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
