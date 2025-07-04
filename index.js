@@ -126,8 +126,8 @@ const port = process.env.PORT || 9090;
 │    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
 ├─ 🌟 *Star the Repo:*  
 │    https://github.com/Jester36/SENU-MD  
-╰─🚀 *Powered by JesterTechX*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3y5w8z.jpg` }, caption: up })
+╰─🚀 *POWERED BY JESTER-OFC*`;
+    conn.sendMessage(conn.94788770020, { image: { url: `https://files.catbox.moe/ke8nul.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
