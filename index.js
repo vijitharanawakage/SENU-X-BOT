@@ -127,7 +127,8 @@ const port = process.env.PORT || 9090;
 ├─ 🌟 *Star the Repo:*  
 │    https://github.com/Jester36/SENU-MD  
 ╰─🚀 *POWERED BY JESTER-OFC*`;
-    conn.sendMessage(conn.94788770020, { image: { url: `https://files.catbox.moe/ke8nul.jpg` }, caption: up })
+
+    conn.sendMessage(conn.user.id,{ image: { url: `https://files.catbox.moe/ke8nul.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
