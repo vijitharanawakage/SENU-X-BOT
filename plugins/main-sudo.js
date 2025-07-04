@@ -42,7 +42,7 @@ cmd({
 
         const successMsg = "✅ Successfully Added User As Temporary Owner";
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/3y5w8z.jpg" },
+            image: { url: "https://i.ibb.co/bjPrbF84/3174.jpg" },
             caption: successMsg
         }, { quoted: mek });
     } catch (err) {
