@@ -9,7 +9,7 @@ cmd({
     alias: ["xvideo"],
     use: '.xvid <query>',
     react: "🔞",
-    desc: xv,
+    desc: "xvideo download",
     category: "download",
     filename: __filename
 }, async (messageHandler, context, quotedMessage, { from, q, reply }) => {
@@ -18,7 +18,7 @@ cmd({
 
         let res = await fetchJson(`https://raganork-network.vercel.app/api/xvideos/search?query=${q}`);
         
-        if (!res || !res.result || res.result.length === 0) return reply("NOT_FOUND");
+        if (!res || !res.result || res.result.length === 0) return reply("N_FOUND");
 
         const data = res.result.slice(0, 10);
         
