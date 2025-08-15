@@ -61,9 +61,9 @@ MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
