@@ -5,7 +5,7 @@
   <h1 align="center">SENU-MD 3.0</h1>
 </p>
 
-> **`Updated` The Version 3.0**
+> **`Updated` The Version3.0**
 
 ---
 <p align="center">
