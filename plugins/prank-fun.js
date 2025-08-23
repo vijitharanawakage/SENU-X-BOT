@@ -6,12 +6,7 @@ cmd({
     category: "fun",
     filename: __filename
 },
-async (conn, mek, m, { from, senderNumber, reply }) => {
-    try {
-        // Bot number (the number where bot is logged in)
-        const botNumber = conn.user.id.split(":")[0]; // ex: "9476XXXXXXX"
-        }
-
+async (conn, mek, m, { from, senderNumber, reply }) => 
         const steps = [
             '💻 *Ｓ𝚈𝚂𝚃𝙴Ｍ Ｈ𝙰𝙲𝙺 Ｓ𝚃𝙰𝚁𝚃𝙸𝙽Ｇ...* 💻',
             '*𝙸𝙽𝙸𝚃𝙸𝙰𝙻𝙸𝚉𝙸𝙽𝙶 𝙷𝙰𝙲𝙺𝙸𝙽𝙶 𝚃𝙾𝙾𝙻𝚂...* 🛠️',
