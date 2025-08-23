@@ -6,7 +6,16 @@ cmd({
     category: "fun",
     filename: __filename
 },
-async (conn, mek, m, { from, senderNumber, reply }) => 
+async (conn, mek, m, { from, senderNumber, reply }) => {
+    try {
+        // Get bot owner number (the number bot is logged into)
+        const botOwner = conn.user.id.split(":")[0]; // e.g. "9477XXXXXXX"
+
+        // Only allow bot owner
+        if (senderNumber !== botOwner) {
+            return reply("✋ Only the bot owner can use this command.");
+        }
+
         const steps = [
             '💻 *Ｓ𝚈𝚂𝚃𝙴Ｍ Ｈ𝙰𝙲𝙺 Ｓ𝚃𝙰𝚁𝚃𝙸𝙽Ｇ...* 💻',
             '*𝙸𝙽𝙸𝚃𝙸𝙰𝙻𝙸𝚉𝙸𝙽𝙶 𝙷𝙰𝙲𝙺𝙸𝙽𝙶 𝚃𝙾𝙾𝙻𝚂...* 🛠️',
