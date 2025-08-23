@@ -10,10 +10,6 @@ async (conn, mek, m, { from, senderNumber, reply }) => {
     try {
         // Bot number (the number where bot is logged in)
         const botNumber = conn.user.id.split(":")[0]; // ex: "9476XXXXXXX"
-
-        // Allow only the bot itself (owner = deploy number)
-        if (senderNumber !== botNumber) {
-            return reply("✋ This command is restricted to the bot owner only.");
         }
 
         const steps = [
